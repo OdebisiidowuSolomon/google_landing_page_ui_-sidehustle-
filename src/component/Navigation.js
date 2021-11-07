@@ -33,10 +33,10 @@ export default function Navigation() {
           <span className="Navigation__desktop__option">
             <Option name="Images" />
           </span>
-          <span className="Navigation__desktop__option">
+          <span className="Navigation__desktop__option hoverBtn">
             <AppsOutlined />
           </span>
-          <span className="Navigation__desktop__option">
+          <span className="Navigation__desktop__option hoverBtn">
             <Avatar />
           </span>
         </div>
