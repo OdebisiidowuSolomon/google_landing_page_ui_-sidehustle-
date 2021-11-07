@@ -2,7 +2,6 @@
 
   - [Requirements](#Requirements)
   - [Links](#Links)
-  - [Project Structure](#Project-Structure)
   - [The process](#The-process)
     - [Built with](#Built-with)
     - [Third Party Packages](#Third-Party-Packages)
@@ -29,9 +28,6 @@ experience so far learning React JS and in Side Hustle Internship so far.
 ### Links
 
 - Link To Live Site [Landing Site](https://sidehustle-landpage.netlify.app/)
-
-## Project Structure
-
 
 
 ## The process
