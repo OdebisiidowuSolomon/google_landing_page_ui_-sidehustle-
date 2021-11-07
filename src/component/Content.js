@@ -7,11 +7,11 @@ export default function Content() {
   const [name, setName] = useState("");
 
   const colorArr = [
-    "red",
+    "yellow",
     "blue",
     "green",
+    "red",
     "purple",
-    "yellow",
     "cyan",
     "magenta",
   ];

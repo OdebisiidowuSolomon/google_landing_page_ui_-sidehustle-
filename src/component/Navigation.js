@@ -8,7 +8,7 @@ export default function Navigation() {
     <>
       <div className="Navigation">
         <div className="navigation__left">
-          <div className="navigation__bar">
+          <div className="navigation__bar hoverBtn">
             <Menu />
           </div>
           <div className="navigation__options">
@@ -17,10 +17,10 @@ export default function Navigation() {
           </div>
         </div>
         <div className="navigation__right">
-          <div className="navigation__app">
+          <div className="navigation__app hoverBtn">
             <AppsOutlined />
           </div>
-          <div className="navigation__avatar">
+          <div className="navigation__avatar hoverBtn">
             <Avatar />
           </div>
         </div>
