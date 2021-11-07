@@ -58,7 +58,7 @@ body {
 .content__logo {
   margin: auto;
   width: 75%;
-  margin: 3rem 3rem 3.5rem 3rem;
+  margin: 3rem auto
 }
 
 img {
