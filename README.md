@@ -56,6 +56,7 @@ experience so far learning React JS and in Side Hustle Internship so far.
 - [faozziyyah](https://github.com/faozziyyah)
 - [Shewardelujo](https://github.com/Shewardelujo)
 - Excel Chimdindu
+- Oliver Kennedy
 
 ## Acknowledgments
 
