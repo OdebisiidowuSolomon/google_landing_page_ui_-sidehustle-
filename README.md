@@ -7,8 +7,8 @@
     - [Third Party Packages](#Third-Party-Packages)
     - [Version Control](#Version-Control)
     - [Hosting](#Hosting)
-    - [Installing Dependencies](#Installing-Dependencies)
   - [Team Members](#Team-Members)
+  - [Installing Dependencies](#Installing-Dependencies)
   - [Acknowledgments](#Acknowledgments)
 
 ## Requirements
@@ -49,10 +49,6 @@ experience so far learning React JS and in Side Hustle Internship so far.
 ### Hosting
 - The project is hosted on Netlify
 
-## Installing Dependencies
-
-- If You download the repo code / clone the repo, you will need to run *npm install* in the project directory to install any project dependencies first. Without doing this, the code may not work as expected.
-
 ## Team Members:
 - [Solomon (Team Lead)](https://github.com/OdebisiidowuSolomon)
 - [Montso Matlaletsa](https://github.com/Montso-Matlaletsa)
@@ -62,6 +58,10 @@ experience so far learning React JS and in Side Hustle Internship so far.
 - [Shewardelujo](https://github.com/Shewardelujo)
 - Excel Chimdindu
 - Oliver Kennedy
+
+## Installing Dependencies
+
+- If You download the repo code / clone the repo, you will need to run *npm install* in the project directory to install any project dependencies first. Without doing this, the code may not work as expected.
 
 ## Acknowledgments
 
