@@ -163,7 +163,7 @@ img {
 }
 
 .footer {
-  /* position: absolute; */
+  position: f;
   background-color: var(--footer-color);
   height: 150px;
   bottom: 0;
@@ -209,10 +209,6 @@ img {
     z-index: 10000;
   }
 
-  .option__name {
-    margin: 0;
-    padding: 0;
-  }
   .Navigation__desktop__options {
     display: flex;
 
@@ -220,10 +216,14 @@ img {
   }
   .Navigation__desktop__option {
     margin-right: 0.8rem;
-    /* height: 80px; */
     vertical-align: middle;
     align-items: center;
     display: flex;
+  }
+
+  .option__name {
+    margin: 0;
+    padding: 0;
   }
 
   .content {
