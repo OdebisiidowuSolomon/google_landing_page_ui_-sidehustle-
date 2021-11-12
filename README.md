@@ -5,12 +5,16 @@
   - [Requirements](#Requirements)
   - [Installing Dependencies](#Installing-Dependencies)
   - [Project Structure](#Project-Structure)
+    - [App Component](#App-components)
+    - [Content Component](#content-components)
+    - [Trend Component](#trend-components)
+    - [Footer Component](#footer-components)
   - [Links](#Links)
   - [The process](#The-process)
-  - [Built with](#Built-with)
-  - [Third Party Packages](#Third-Party-Packages)
-  - [Version Control](#Version-Control)
-  - [Hosting](#Hosting)
+    - [Built with](#Built-with)
+    - [Third Party Packages](#Third-Party-Packages)
+    - [Version Control](#Version-Control)
+    - [Hosting](#Hosting)
   - [Team Members](#Team-Members)
 - [Acknowledgments](#Acknowledgments)
 
@@ -56,6 +60,8 @@ The Public Folder Contains The Index.html and Style.css Which is use To Style Th
 Assets Folder (Where The Sidehustle Logo and other images used in this Project resides.)
 
 And The Components Folder which contains Reuseable components Used throughout the App
+
+# App Component
 
 > Our Entry File The App.js Looks Like This, it is a Stateless functional components which Returns The Components Used in The main Page.
 
