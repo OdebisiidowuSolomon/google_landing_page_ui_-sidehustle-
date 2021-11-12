@@ -49,7 +49,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 As With All Projects Created With CRA The Folder Structure is Very Similar To The Boilerplate React Gives
 
-![Folder Structure](.\src\assets\readme_imgs\folder_structure.PNG)
+![Folder Structure](\src\assets\readme_imgs\folder_structure.PNG)
 
 The Public Folder Contains The Index.html and Style.css Which is use To Style The Page, while The Src Folder Consists Of The two folders
 
@@ -93,11 +93,11 @@ This is a Stateless Functional Component Which Gets Rendered Differently Based O
 
 > Desktop Version
 
-![Folder Structure](.\src\assets\readme_imgs\navigation.PNG)
+![Folder Structure](\src\assets\readme_imgs\navigation.PNG)
 
 > Mobile Version
 
-![Folder Structure](.\src\assets\readme_imgs\mobileNavigation.PNG)
+![Folder Structure](\src\assets\readme_imgs\mobileNavigation.PNG)
 
 A Bit Of The Css Responsible For It, definitely dive into the source code to have an indepth view
 
@@ -128,7 +128,7 @@ A Bit Of The Css Responsible For It, definitely dive into the source code to hav
 
 A Simple Function For Rendering The Option In The Navigation, it also indicate the Active Option, it Receives Two Props name and active. The active prop is Used for styling The Option differently to show it is active.
 
-![Options](.\src\assets\readme_imgs\options.PNG)
+![Options](\src\assets\readme_imgs\options.PNG)
 
 ```
 > Option.js
@@ -149,7 +149,7 @@ export default function Option({ name, active }) {
 
 This is a Stateful Functional Component. it Basically Consists Of The Logo, The SearchBar (Another Custom Component), Buttons (from the Material Icons) And The Google Offers content
 
-![Content](.\src\assets\readme_imgs\content.PNG)
+![Content](\src\assets\readme_imgs\content.PNG)
 
 ```
 
@@ -313,7 +313,7 @@ export default function SearchBar({ onHandleChange }) {
 
 A Stateful Functional Component, Responsible For Rendering The Trends in The App. it is displayed optionally on Smaller Screens. it basically maps over an array i.e trendArr and returns a trend. The Trending Up Icon is gotten from MUI (TrendingUp)
 
-![Folder Structure](.\src\assets\readme_imgs\trend.PNG)
+![Folder Structure](\src\assets\readme_imgs\trend.PNG)
 
 ```
 import { Button } from "@material-ui/core";
@@ -359,7 +359,7 @@ export default function Trend() {
 
 A Stateless Functional Component, Responsible For Rendering The Footer Of The App, a bit of Responsive Styling And Flexbox Was Used To Make it Adjust To different Screen Width
 
-![Folder Structure](.\src\assets\readme_imgs\footer.PNG)
+![Folder Structure](\src\assets\readme_imgs\footer.PNG)
 
 ```
 import React from "react";
