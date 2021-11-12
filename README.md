@@ -7,10 +7,10 @@
   - [Project Structure](#Project-Structure)
   - [Links](#Links)
   - [The process](#The-process)
-   - [Built with](#Built-with)
-   - [Third Party Packages](#Third-Party-Packages)
-   - [Version Control](#Version-Control)
-   - [Hosting](#Hosting)
+  - [Built with](#Built-with)
+  - [Third Party Packages](#Third-Party-Packages)
+  - [Version Control](#Version-Control)
+  - [Hosting](#Hosting)
   - [Team Members](#Team-Members)
 - [Acknowledgments](#Acknowledgments)
 
@@ -93,7 +93,7 @@ This is a Stateless Functional Component Which Gets Rendered Differently Based O
 
 > Desktop Version
 
-![Folder Structure](./src/assets/readme_imgs/navigation.PNG)
+![Folder Structure](./src/assets/readme_imgs/Navigation.PNG)
 
 > Mobile Version
 
@@ -357,7 +357,7 @@ export default function Trend() {
 
 A Stateless Functional Component, Responsible For Rendering The Footer Of The App, a bit of Responsive Styling And Flexbox Was Used To Make it Adjust To different Screen Width
 
-![Folder Structure](./src/assets/readme_imgs/footer.PNG)
+![Folder Structure](./src/assets/readme_imgs/Footer.PNG)
 
 ```jsx
 import React from "react";
