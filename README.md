@@ -12,6 +12,7 @@
     - [Version Control](#Version-Control)
     - [Hosting](#Hosting)
   - [Team Members](#Team-Members)
+<<<<<<< HEAD
 - [Acknowledgments](#Acknowledgments)
 
 # Overview
@@ -21,6 +22,10 @@
 This Project is A Solution To The Capstone Project Given By Sidehustle [React Track] For Week 2
 
 > Built By [Team Greyjoy]
+=======
+  - [Installing Dependencies](#Installing-Dependencies)
+  - [Acknowledgments](#Acknowledgments)
+>>>>>>> d9dfc47aca8046586e3202f9fb48b9f35e1230ee
 
 ## Requirements
 
@@ -430,6 +435,13 @@ export default function Footer() {
 - [Shewardelujo](https://github.com/Shewardelujo)
 - Excel Chimdindu
 - Oliver Kennedy
+<<<<<<< HEAD
+=======
+
+## Installing Dependencies
+
+- If You download the repo code / clone the repo, you will need to run *npm install* in the project directory to install any project dependencies first. Without doing this, the code may not work as expected.
+>>>>>>> d9dfc47aca8046586e3202f9fb48b9f35e1230ee
 
 ## Acknowledgments
 
