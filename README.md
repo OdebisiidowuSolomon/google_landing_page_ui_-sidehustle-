@@ -215,14 +215,14 @@ export default function Content() {
 }
 ```
 
+> The HandleChange function is responsible for setting The State to each value the user Inputs, it is triggered From The input in the [SearchBar.js Component](#searchbar), when ever a User Types
+
 ```
 const [name, setName] = useState("");
 ....
 const handleChange = (e) => setName(e.target.value);
 ....
 ```
-
-> The HandleChange function is responsible for setting The State to each value the user Inputs, it is triggered From The input in the [SearchBar.js Component](#searchbar), when ever a User Types
 
 > Here is the Snippet Of Code Responsible For Optionally Rendering The Logo Or text,Depending on The input text Length
 
