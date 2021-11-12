@@ -49,7 +49,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 As With All Projects Created With CRA The Folder Structure is Very Similar To The Boilerplate React Gives
 
-![Folder Structure](\src\assets\readme_imgs\folder_structure.PNG)
+![Folder Structure](./src/assets/readme_imgs/folder_structure.PNG)
 
 The Public Folder Contains The Index.html and Style.css Which is use To Style The Page, while The Src Folder Consists Of The two folders
 
@@ -59,7 +59,7 @@ And The Components Folder which contains Reuseable components Used throughout th
 
 > Our Entry File The App.js Looks Like This, it is a Stateless functional components which Returns The Components Used in The main Page.
 
-```
+```jsx
 > App.js
 
 import Navigation from "./component/Navigation";
@@ -93,15 +93,15 @@ This is a Stateless Functional Component Which Gets Rendered Differently Based O
 
 > Desktop Version
 
-![Folder Structure](\src\assets\readme_imgs\navigation.PNG)
+![Folder Structure](./src/assets/readme_imgs/navigation.PNG)
 
 > Mobile Version
 
-![Folder Structure](\src\assets\readme_imgs\mobileNavigation.PNG)
+![Folder Structure](./src/assets/readme_imgs/mobileNavigation.PNG)
 
 A Bit Of The Css Responsible For It, definitely dive into the source code to have an indepth view
 
-```
+```css
 @media (min-width: 645px) {
   .Navigation {
     display: none;
@@ -119,8 +119,7 @@ A Bit Of The Css Responsible For It, definitely dive into the source code to hav
     z-index: 10000;
   }
 
-  ....
-
+  ....;
 }
 ```
 
@@ -128,9 +127,9 @@ A Bit Of The Css Responsible For It, definitely dive into the source code to hav
 
 A Simple Function For Rendering The Option In The Navigation, it also indicate the Active Option, it Receives Two Props name and active. The active prop is Used for styling The Option differently to show it is active.
 
-![Options](\src\assets\readme_imgs\options.PNG)
+![Options](./src/assets/readme_imgs/options.PNG)
 
-```
+```jsx
 > Option.js
 
 import React from "react";
@@ -149,9 +148,9 @@ export default function Option({ name, active }) {
 
 This is a Stateful Functional Component. it Basically Consists Of The Logo, The SearchBar (Another Custom Component), Buttons (from the Material Icons) And The Google Offers content
 
-![Content](\src\assets\readme_imgs\content.PNG)
+![Content](./src/assets/readme_imgs/content.PNG)
 
-```
+```jsx
 
 > Content.js
 
@@ -217,7 +216,7 @@ export default function Content() {
 
 > The HandleChange function is responsible for setting The State to each value the user Inputs, it is triggered From The input in the [SearchBar.js Component](#searchbar), when ever a User Types
 
-```
+```jsx
 const [name, setName] = useState("");
 ....
 const handleChange = (e) => setName(e.target.value);
@@ -226,7 +225,7 @@ const handleChange = (e) => setName(e.target.value);
 
 > Here is the Snippet Of Code Responsible For Optionally Rendering The Logo Or text,Depending on The input text Length
 
-```
+```jsx
 
 > Content.js
 
@@ -254,14 +253,14 @@ The text will be displayed if The length of the text is greater Than 0 else if N
 
 i added a bit of styling to the text displayed, by adding a split method on the name which basically returns an array i.e
 
-```
+```jsx
 `hello'.split('')
 > ['h', 'e', 'l', 'l', 'o']
 ```
 
 i then map over each item in the returned array and for each item a span containing the key and style attribute is provided, the value given to the style attribute looks like this
 
-```
+```jsx
 style={{
   color: colorArr[Math.ceil(Math.random() * colorArr.length)],
 }}
@@ -269,24 +268,23 @@ style={{
 
 This is just a Fancy way of Randomly Pulling out an element of The colorArr.
 
-```
-  const colorArr = [
-    "yellow",
-    "blue",
-    "green",
-    "red",
-    "purple",
-    "cyan",
-    "magenta",
-  ];
-
+```jsx
+const colorArr = [
+  "yellow",
+  "blue",
+  "green",
+  "red",
+  "purple",
+  "cyan",
+  "magenta",
+];
 ```
 
 # SearchBar Component
 
 A Stateless Functional Component, it is Responsible For Rendering The Input Component Of The App, it raises an Event called onHandleChange whenever the text entered by the User changes, it gets Handled in the [Content.js](#content)
 
-```
+```jsx
 > SearchBar.js
 
 
@@ -313,9 +311,9 @@ export default function SearchBar({ onHandleChange }) {
 
 A Stateful Functional Component, Responsible For Rendering The Trends in The App. it is displayed optionally on Smaller Screens. it basically maps over an array i.e trendArr and returns a trend. The Trending Up Icon is gotten from MUI (TrendingUp)
 
-![Folder Structure](\src\assets\readme_imgs\trend.PNG)
+![Folder Structure](./src/assets/readme_imgs/trend.PNG)
 
-```
+```jsx
 import { Button } from "@material-ui/core";
 import { TrendingUp } from "@material-ui/icons";
 import React from "react";
@@ -359,9 +357,9 @@ export default function Trend() {
 
 A Stateless Functional Component, Responsible For Rendering The Footer Of The App, a bit of Responsive Styling And Flexbox Was Used To Make it Adjust To different Screen Width
 
-![Folder Structure](\src\assets\readme_imgs\footer.PNG)
+![Folder Structure](./src/assets/readme_imgs/footer.PNG)
 
-```
+```jsx
 import React from "react";
 
 export default function Footer() {
@@ -384,7 +382,6 @@ export default function Footer() {
     </div>
   );
 }
-
 ```
 
 ### Links
